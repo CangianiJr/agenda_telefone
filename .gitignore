@@ -19,3 +19,5 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+.vs/VSWorkspaceState.json
+.vs/agenda_telefone/v17/.suo
