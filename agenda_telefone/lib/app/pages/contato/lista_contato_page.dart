@@ -62,9 +62,9 @@ class _ListaContatoPageState extends State<ListaContatoPage> {
                     overflow: TextOverflow.ellipsis,
                   ),
                   trailing: Icon(
-                    Icons.favorite,
-                    size: 15,
-                    color: item.favorito! ? Colors.red : Colors.grey,
+                    Icons.star,
+                    size: 20,
+                    color: item.favorito! ? Colors.blue : Colors.grey,
                   ),
                   onTap: () {
                     setState(() {

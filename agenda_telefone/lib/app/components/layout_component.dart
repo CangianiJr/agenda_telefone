@@ -19,6 +19,7 @@ class LayoutComponent extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
         bottom: appBarBottom,
+        centerTitle: true,
       ),
       body: body,
       drawer: Drawer(
@@ -40,7 +41,7 @@ class LayoutComponent extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text('Comprimissos'),
+              title: const Text('Comprimissos | Lembretes'),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
                   return const IndexComprimissoPage();
